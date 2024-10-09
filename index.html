@@ -132,15 +132,75 @@
                 <li>Inglés - Avanzado</li>
             </ul>
         </section>
+
+        <!-- Sección Multimedia -->
+        <section id="multimedia">
+
+            <!-- Imagen -->
+            <section id="imagen_de_ejemplo">
+                <img src="https://placehold.co/400x200/black/white" alt="Imagen de Placeholder"
+                    style="display: block; margin: 20px auto; border: 1px solid #ccc; padding: 10px;">
+            </section>
+
+            <!-- Video -->s
+            <section id="video_de_ejemplo">
+                <iframe src="https://www.youtube.com/embed/UB1O30fR-EE" width="560" height="315"
+                    style="display: block; margin: 20px auto; border: 1px solid #ccc;" title="Video de YouTube"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </section>
+
+
+            <!-- Mapa de Google -->
+            <section id="mapa-google_de_ejemplo">
+                <h3>Mapa de Google - ESPOL</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31896.1542201309!2d-79.9637504!3d-2.1463039999999975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d72f925e5bfdb%3A0x327cdb9f7f4ba3b2!2sEscuela%20Superior%20Polit%C3%A9cnica%20del%20Litoral%20(ESPOL)!5e0!3m2!1ses-419!2sec!4v1728502680719!5m2!1ses-419!2sec" width="600" height="450" style="border:0; display: block; margin: auto;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+        </section>
+
+        <!-- Sección Formulario de Contacto -->
+        <section id="formulario_de_contacto">
+            <h2>Contacto</h2>
+            <div
+                style="border: 1px solid #ddd; padding: 20px; border-radius: 10px; box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1); max-width: 600px; margin: 20px auto;">
+                <form style="display: flex; flex-direction: column; gap: 10px;">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required
+                        style="padding: 8px; border: 1px solid #ccc; border-radius: 5px;">
+
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required
+                        style="padding: 8px; border: 1px solid #ccc; border-radius: 5px;">
+
+                    <label for="tema">Tema:</label>
+                    <select id="tema" name="tema" style="padding: 8px; border: 1px solid #ccc; border-radius: 5px;">
+                        <option value="consulta">Consulta</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="colaboracion">Colaboración</option>
+                    </select>
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required
+                        style="padding: 8px; border: 1px solid #ccc; border-radius: 5px;"></textarea>
+
+                    <button type="submit"
+                        style="background-color: #4CAF50; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer;">
+                        Enviar
+                    </button>
+                </form>
+            </div>
+        </section>
+
     </main>
 
     <!-- Etiqueta Footer -->
     <footer>
-        <p>© Matías Collaguazo - 2024</p>
         <ul>
             <li><a href="https://www.linkedin.com/in/matias-collaguazo-55b022257/">LinkedIn</a></li>
             <li><a href="https://github.com/MatiasCollaguazo">GitHub</a></li>
         </ul>
+        <p>© Matías Collaguazo - 2024</p>
     </footer>
 </body>
 
