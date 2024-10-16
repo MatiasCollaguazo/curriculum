@@ -41,24 +41,45 @@ h1{
 
     padding-left: 1.2%; 
     padding-right: 1.2%; 
+
+
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
     
-
-    /* borde redondeado con un radio de 5 píxeles */
-
-    /* en navegadores basados en WebKit, 
-    como versiones antiguas de Safari y Chrome. */
-    -webkit-border-radius: 5px; 
-
-    /* en navegadores antiguos de Mozilla, 
-    como Firefox.  */
-    -moz-border-radius: 5px;    
-
-    /* en navegadores modernos. */
-    border-radius: 5px;
 
       /* sombra a un elemento */
 
-    -webkit-box-shadow: -3px 14px 61px -34px rgba(0,0,0,1);
-    -moz-box-shadow: -3px 14px 61px -34px rgba(0,0,0,1);
-    box-shadow: -3px 14px 61px -34px rgba(0,0,0,1);
+    -webkit-box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);;
+    -moz-box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);;
+ }
+
+
+
+
+#formulario{
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+
+ section form {
+     /* Modelo de diseño en cuadrícula */
+     display: grid;                                 
+     row-gap: 0.5rem;
+ }
+
+ nav ul {
+
+     /* Modelo de diseño flexible */
+     display: flex;                                 
+     justify-content: space-around;
+    
  }
