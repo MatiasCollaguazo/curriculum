@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 200;
@@ -121,3 +122,196 @@ h1{
 
 
 
+=======
+:root {
+    --color-principal: rgb(50, 111, 255); /*pruebas :u*/
+    --color-secundario: #333;   
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #46bcd7;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 10; /* Asegura que esté encima de otros elementos */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    background-color: #333;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: var(--color-principal);
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 1.5em;
+    border-bottom: 2px solid var(--color-principal);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+section p,
+section ul {
+    margin: 10px 0;
+}
+
+#experiencia ul li {
+    margin-bottom: 10px;
+}
+
+#experiencia ul li strong {
+    color: var(--color-principal);
+}
+
+#experiencia ul li em {
+    color: #555;
+}
+
+#proyectos ul li {
+    margin-bottom: 15px;
+}
+
+#proyectos ul li strong {
+    color: var(--color-principal);
+}
+
+#proyectos ul li em {
+    font-style: italic;
+    color: #555;
+}
+
+#habilidades ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+#habilidades > ul > li{
+    padding-right: 5%;
+}
+
+#certificaciones ul,
+#idiomas ul {
+    list-style: none;
+    padding: 0;
+}
+
+#certificaciones ul li,
+#idiomas ul li {
+    margin-bottom: 10px;
+}
+
+#multimedia {
+    text-align: center;
+}
+
+#imagen_de_ejemplo img,
+#video_de_ejemplo iframe,
+#mapa-google_de_ejemplo iframe {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#formulario_de_contacto {
+    text-align: left;
+}
+
+#formulario_de_contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#formulario_de_contacto input,
+#formulario_de_contacto select,
+#formulario_de_contacto textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#formulario_de_contacto button {
+    background-color: var(--color-principal);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#formulario_de_contacto button:hover {
+    background-color: #45a049;
+}
+
+.icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding-top: 10px;
+    padding-left: 20em;
+    padding-right: 20em;
+}
+
+.icon-container img {
+    width: 10vw; /* Tamaño de los íconos relativo al ancho de la ventana */
+    max-width: 160px; /* Tamaño máximo para evitar que crezcan demasiado */
+    height: auto; /* Mantiene la proporción */
+    flex-basis: calc(50% - 20px); /* Dos columnas de íconos */
+}
+>>>>>>> Stashed changes
