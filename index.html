@@ -4,27 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-    <!-- No se si esto sera suficiente xd-->
     <meta name="keywords" content="curriculum vitae, programador, espol, escuela superior poltécnica del litoral, CV, html, css, javascript">
     <meta name="author" content="Matías Collaguazo">
-
-    <!-- -->
-
-
     <title>Currículum Vitae - Matías Collaguazo</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
 </head>
 
 <body>
-    <!-- Etiqueta Header -->
+
+    <!-- Header -->
     <header>
         <h1>Matías Collaguazo</h1>
         <p>Estudiante de Computación en ESPOL | matiascolla07@hotmail.com | 0992985897</p>
     </header>
 
-    <!-- Etiqueta Nav -->
+    <!-- Navegación -->
     <nav>
         <ul>
             <li><a href="#resumen">Resumen</a></li>
@@ -34,181 +28,170 @@
             <li><a href="#habilidades">Habilidades</a></li>
             <li><a href="#certificaciones">Certificaciones</a></li>
             <li><a href="#idiomas">Idiomas</a></li>
+            <li><a href="#formulario_de_contacto">Contacto</a></li>
         </ul>
     </nav>
 
-    <!-- Etiqueta Main -->
-    <main>
-        <!-- Etiqueta Section 1/5 -->
-        <section id="resumen">
-            <h2 class="subtitle">Resumen</h2>
-            <p> Estudiante de Computación con experiencia en desarrollo de software y automatización de procesos. Poseo
-                habilidades en programación con Java y Python, desarrollo web y manejo de bases de datos. He trabajado
-                en proyectos que incluyen la optimización de inventarios y la creación de herramientas de conversión de
-                datos, así como en el ámbito de la topografía. Busco aplicar mis conocimientos en entornos que requieran
-                soluciones innovadoras y eficientes. Capacidad de adaptación, trabajo en equipo y pensamiento crítico
-                son mis principales fortalezas.</p>
-            <img id="photo" src="https://placehold.co/300x200" alt="Placeholder de imagen">
-        </section>
+    <!-- Contenido Principal -->
+    <main class="contenedor g-2c contenedor-principal">
+        <aside class="informacion-personal">
+            <div class="info-per">
+                <h2 class="uppercase ls-1">Datos Personales</h2>
+                <p>Guayaquil, Ecuador</p>
+                <p>+593 0992985897</p>
+                <p>mcollagu@espol.edu.ec</p>  
 
-        <!-- Etiqueta Section 2/5 -->
-        <section id="experiencia">
-            <h2 class="subtitle">Experiencia Profesional</h2>
-            <ul>
-                <li>
-                    <strong>Constructora Scheel</strong> - Asistente de equipo de topografía (Febrero 2023 - Mayo 2023)
-                    <br><em>Descripción:</em> Recolección de datos de campo de terrenos que la empresa necesitaba para
-                    legalizarlos
-                    <br><em>Logros:</em> Participación en la recopilación y verificación de datos topográficos que
-                    aceleró el proceso de legalización de terrenos en un 20%, asegurando la precisión en la delimitación
-                    de propiedades.
-                </li>
-
-                <li>
-                    <strong>Proyecto Personal</strong> - Desarrollador de Software
-                    <br><em>Descripción:</em> Desarrollo de una aplicación en Python que permite realizar una conversión
-                    automatizada de los datos que recolecta un equipo de topografía Sokkia hacia hojas en Excel.
-                    <br><em>Logros:</em> Reducción de tiempo en el flujo de trabajo de un Ingeniero Topográfo para la
-                    entrega de planos a sus clientes.
-                </li>
-            </ul>
-        </section>
-
-        <!-- Etiqueta Section 3/5 -->
-        <section id="educacion">
-            <h2 class="subtitle">Educación</h2>
-            <ul>
-                <li><strong>Academica Naval Almirante Illingworth</strong> - Bachiller (2016-2022)</li>
-                <li><strong>Escuela Superior Politécnica del Litoral (ESPOL)</strong> - Estudiante (2022-Actualidad)
-                </li>
-            </ul>
-        </section>
-
-        <!-- Etiqueta Section 4/5 -->
-        <section id="proyectos">
-            <h2 class="subtitle">Proyectos</h2>
-            <ul>
-                <li>
-                    <strong>Sistema de Gestión de Inventario</strong> - Desarrollo de una aplicación para la
-                    optimización del inventario en un almacén.
-                    <br><em>Tecnologías utilizadas:</em> Java, MySQL, Spring Boot.
-                    <br><em>Impacto:</em> Redujo el tiempo de gestión de inventario en un 30% y mejoró la precisión del
-                    stock disponible.
-                </li>
-                <li>
-                    <strong>Aplicación Web de Comercio Electrónico</strong> - Implementación de un sitio web responsivo
-                    para la venta de productos en línea.
-                    <br><em>Tecnologías utilizadas:</em> HTML, CSS, JavaScript, React, Node.js.
-                    <br><em>Impacto:</em> Incrementó las ventas en un 20% al ofrecer una plataforma intuitiva y rápida
-                    para los usuarios.
-                </li>
-                <li>
-                    <strong>Automatización de Pruebas de Software</strong> - Creación de scripts automatizados para la
-                    validación de funcionalidades de una plataforma bancaria.
-                    <br><em>Tecnologías utilizadas:</em> Selenium, Python, Microsoft Edge.
-                    <br><em>Impacto:</em> Reducido el tiempo de prueba manual en un 50% y se mejoró la cobertura de
-                    pruebas.
-                </li>
-            </ul>
-        </section>
-
-        <!-- Etiqueta Section 5/5 -->
-        <section id="habilidades">
-            <h2 class="subtitle">Habilidades</h2>
-            <ul>
-                <li>Programación en Java, Python y JavaScript</li>
-                <li>Análisis y diseño de bases de datos relacionales</li>
-                <li>Optimización de algoritmos y estructuras de datos</li>
-                <li>Comunicación efectiva y trabajo en equipo</li>
-            </ul>
-            <h3 align="left">Tecnologías que conozco</h3>
-            <div class="icon-container">
-                <img src="https://skillicons.dev/icons?i=js" alt="JavaScript">
-                <img src="https://skillicons.dev/icons?i=html" alt="HTML">
-                <img src="https://skillicons.dev/icons?i=css" alt="CSS">
-                <img src="https://skillicons.dev/icons?i=java" alt="Java">
-                <img src="https://skillicons.dev/icons?i=python" alt="Python">
-                <img src="https://skillicons.dev/icons?i=mysql" alt="MySQL">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255168.19789702145!2d-79.9801008!3d-2.15250125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d13cbe855805f%3A0x8015a492f4fca473!2sGuayaquil!5e0!3m2!1ses-419!2sec!4v1716230594253!5m2!1ses-419!2sec" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-        </section>
-
-        <section id="certificaciones">
-            <h2 class="subtitle">Certificaciones</h2>
-            <ul>
-                <li>PCAP: Programming Essentials in Python - 2021</li>
-                <li>Cisco Networking Academy: Cybersecurity Essentials - 2021</li>
-            </ul>
-        </section>
-
-        <section id="idiomas">
-            <h2 class="subtitle">Idiomas</h2>
-            <ul>
-                <li>Español - Nativo</li>
-                <li>Inglés - Avanzado</li>
-            </ul>
-        </section>
-
-
-        <!-- Sección Formulario de Contacto -->
-        <section id="formulario_de_contacto">
-            <h2 class="subtitle">Contacto</h2>
-            <div id="formulario">
-                <form>
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre" required
-                        style="padding: 8px; border: 1px solid #ccc; border-radius: 5px;">
-
-                    <label for="email">Correo Electrónico:</label>
-                    <input type="email" id="email" name="email" required
-                        style="padding: 8px; border: 1px solid #ccc; border-radius: 5px;">
-
-                    <label for="tema">Tema:</label>
-                    <select id="tema" name="tema" style="padding: 8px; border: 1px solid #ccc; border-radius: 5px;">
-                        <option value="consulta">Consulta</option>
-                        <option value="feedback">Feedback</option>
-                        <option value="colaboracion">Colaboración</option>
-                    </select>
-
-                    <label for="mensaje">Mensaje:</label>
-                    <textarea id="mensaje" name="mensaje" rows="4" required
-                        style="padding: 8px; border: 1px solid #ccc; border-radius: 5px;"></textarea>
-
-                    <button type="submit"
-                        style="background-color: #4CAF50; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer;">
-                        Enviar
-                    </button>
-                </form>
+            <div class="info-per">
+                <section id="habilidades">
+                    <h2 class="subtitle">Habilidades</h2>
+                    <ul>
+                        <li>Programación en Java, Python y JavaScript</li>
+                        <li>Análisis y diseño de bases de datos relacionales</li>
+                        <li>Optimización de algoritmos y estructuras de datos</li>
+                        <li>Comunicación efectiva y trabajo en equipo</li>
+                    </ul>
+                </section>
             </div>
+            <div class="info-per">
+                <section id="idiomas">
+                    <h2 class="uppercase ls-1">Idiomas</h2>
+                    <p>Español - Nativo</p>
+                    <p>Ingles - Avanzado</p>
+                </section>
+            </div>
+        </aside>
+        <div id="contenido-principal">
 
-            <!-- Imagen -->
-            
-                <img src="https://placehold.co/400x200/black/white" alt="Imagen de Placeholder"
-                    style="display: block; margin: 20px auto; border: 1px solid #ccc; padding: 10px;">
+            <!-- Resumen -->
+            <section id="resumen">
+                <h2 class="subtitle">Resumen</h2>
+                <p>Estudiante de Computación con experiencia en desarrollo de software y automatización de procesos. Poseo habilidades en programación con Java y Python, desarrollo web y manejo de bases de datos. He trabajado en proyectos que incluyen la optimización de inventarios y la creación de herramientas de conversión de datos, así como en el ámbito de la topografía. Busco aplicar mis conocimientos en entornos que requieran soluciones innovadoras y eficientes. Capacidad de adaptación, trabajo en equipo y pensamiento crítico son mis principales fortalezas.</p>
+                <img id="photo" src="https://placehold.co/300x200" alt="Placeholder de imagen">
+            </section>
 
-            <!-- Video -->
-             <h3>Contenido Recomendado</h3>
-                <iframe src="https://www.youtube.com/embed/UB1O30fR-EE" width="560" height="315"
-                    style="display: block; margin: 20px auto; border: 1px solid #ccc;" title="Video de YouTube"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen>
-                </iframe>
+            <!-- Experiencia Profesional -->
+            <section id="experiencia">
+                <h2 class="subtitle">Experiencia Profesional</h2>
+                <ul>
+                    <li>
+                        <strong>Constructora Scheel</strong> - Asistente de equipo de topografía (Febrero 2023 - Mayo 2023)
+                        <br><em>Descripción:</em> Recolección de datos de campo de terrenos que la empresa necesitaba para legalizarlos
+                        <br><em>Logros:</em> Participación en la recopilación y verificación de datos topográficos que aceleró el proceso de legalización de terrenos en un 20%, asegurando la precisión en la delimitación de propiedades.
+                    </li>
+                    <li>
+                        <strong>Proyecto Personal</strong> - Desarrollador de Software
+                        <br><em>Descripción:</em> Desarrollo de una aplicación en Python que permite realizar una conversión automatizada de los datos que recolecta un equipo de topografía Sokkia hacia hojas en Excel.
+                        <br><em>Logros:</em> Reducción de tiempo en el flujo de trabajo de un Ingeniero Topográfo para la entrega de planos a sus clientes.
+                    </li>
+                </ul>
+            </section>
 
-            <!-- Mapa de Google -->
-                <h3>Mapa de Google - ESPOL</h3>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255162.0137727635!2d-79.8899030618991!3d-2.189134119924516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d13cbe855805f%3A0x8015a492f4fca473!2sGuayaquil!5e0!3m2!1ses!2sec!4v1730121214502!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            
-        </section>
+            <!-- Educación -->
+            <section id="educacion">
+                <h2 class="subtitle">Educación</h2>
+                <ul>
+                    <li><strong>Academica Naval Almirante Illingworth</strong> - Bachiller (2016-2022)</li>
+                    <li><strong>Escuela Superior Politécnica del Litoral (ESPOL)</strong> - Estudiante (2022-Actualidad)</li>
+                </ul>
+            </section>
 
+            <!-- Proyectos -->
+            <section id="proyectos">
+                <h2 class="subtitle">Proyectos</h2>
+                <ul>
+                    <li>
+                        <strong>Sistema de Gestión de Inventario</strong> - Desarrollo de una aplicación para la optimización del inventario en un almacén.
+                        <br><em>Tecnologías utilizadas:</em> Java, MySQL, Spring Boot.
+                        <br><em>Impacto:</em> Redujo el tiempo de gestión de inventario en un 30% y mejoró la precisión del stock disponible.
+                    </li>
+                    <li>
+                        <strong>Aplicación Web de Comercio Electrónico</strong> - Implementación de un sitio web responsivo para la venta de productos en línea.
+                        <br><em>Tecnologías utilizadas:</em> HTML, CSS, JavaScript, React, Node.js.
+                        <br><em>Impacto:</em> Incrementó las ventas en un 20% al ofrecer una plataforma intuitiva y rápida para los usuarios.
+                    </li>
+                    <li>
+                        <strong>Automatización de Pruebas de Software</strong> - Creación de scripts automatizados para la validación de funcionalidades de una plataforma bancaria.
+                        <br><em>Tecnologías utilizadas:</em> Selenium, Python, Microsoft Edge.
+                        <br><em>Impacto:</em> Reducido el tiempo de prueba manual en un 50% y se mejoró la cobertura de pruebas.
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Habilidades -->
+            <section id="habilidades">
+                <h2 align="left">Tecnologías que conozco</h3>
+                <div class="icon-container">
+                    <img src="https://skillicons.dev/icons?i=js" alt="JavaScript">
+                    <img src="https://skillicons.dev/icons?i=html" alt="HTML">
+                    <img src="https://skillicons.dev/icons?i=css" alt="CSS">
+                    <img src="https://skillicons.dev/icons?i=java" alt="Java">
+                    <img src="https://skillicons.dev/icons?i=python" alt="Python">
+                    <img src="https://skillicons.dev/icons?i=mysql" alt="MySQL">
+                </div>
+            </section>
+
+            <!-- Certificaciones -->
+            <section id="certificaciones">
+                <h2 class="subtitle">Certificaciones</h2>
+                <ul>
+                    <li>PCAP: Programming Essentials in Python - 2021</li>
+                    <li>Cisco Networking Academy: Cybersecurity Essentials - 2021</li>
+                </ul>
+            </section>
+
+            <!-- Idiomas -->
+            <section id="idiomas">
+                <h2 class="subtitle">Idiomas</h2>
+                <ul>
+                    <li>Español - Nativo</li>
+                    <li>Inglés - Avanzado</li>
+                </ul>
+            </section>
+
+            <!-- Contacto -->
+            <section id="formulario_de_contacto">
+                <h2 class="subtitle">Contacto</h2>
+                <div id="formulario">
+                    <form>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required style="padding: 8px; border: 1px solid #ccc; border-radius: 5px;">
+
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" id="email" name="email" required style="padding: 8px; border: 1px solid #ccc; border-radius: 5px;">
+
+                        <label for="tema">Tema:</label>
+                        <select id="tema" name="tema" style="padding: 8px; border: 1px solid #ccc; border-radius: 5px;">
+                            <option value="consulta">Consulta</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="colaboracion">Colaboración</option>
+                        </select>
+
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" required style="padding: 8px; border: 1px solid #ccc; border-radius: 5px;"></textarea>
+
+                        <button type="submit" style="background-color: #4CAF50; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer;">
+                            Enviar
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Imagen -->
+                <img src="https://placehold.co/400x200/black/white" alt="Imagen de Placeholder" style="display: block; margin: 20px auto; border: 1px solid #ccc; padding: 10px;">
+
+                <!-- Video -->
+                <iframe width="400" height="250" src="https://www.youtube.com/embed/8B9H8Uz3tuQ" title="YouTube video player" frameborder="0" allowfullscreen style="display: block; margin: 20px auto; border: 1px solid #ccc; padding: 10px;"></iframe>
+            </section>
+
+        </div>
     </main>
 
-    <!-- Etiqueta Footer -->
+    <!-- Footer -->
     <footer>
-        <ul>
-            <li><a href="https://www.linkedin.com/in/matias-collaguazo-55b022257/">LinkedIn</a></li>
-            <li><a href="https://github.com/MatiasCollaguazo">GitHub</a></li>
-        </ul>
-        <p>© Matías Collaguazo - 2024</p>
+        <p>© 2024 Matías Collaguazo. Todos los derechos reservados.</p>
     </footer>
+
 </body>
 
 </html>
